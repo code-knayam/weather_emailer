@@ -12,3 +12,7 @@ To do this -
   then - Sign in & security
   search for - Allow less Secure apps
   Turn it on.
+
+Add the Open Weather URL along with API key and location in get_forecast.py file.
+
+Update the emails.txt file with emails and names of the users to be included.

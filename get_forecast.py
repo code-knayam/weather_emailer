@@ -2,8 +2,9 @@ import requests
 import datetime
 
 def get_weather_forecast():
-    #url to get JSON data
-    url = 'http://api.openweathermap.org/data/2.5/weather?&id=1273294&units=metric&appid=e57a8d0e4d3ed55769eec9b2bd3cd98e'
+    #url to get JSON data with API key and location details
+
+    url = ''
     #generating request
     weather_request = requests.get(url)
     weather_json = weather_request.json()
